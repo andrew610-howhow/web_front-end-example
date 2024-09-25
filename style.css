@@ -44,27 +44,117 @@ body {
 
 /* 空白的意思是選擇子內容 */
 /* id選擇器, 選擇所有 id="wrapper"的東西裡面 class="btn" 的東西*/
-.wrapper .btn {
+.wrapper .btn1 {
     /* 指定寬度 */
     width: 50rem;
     /* 撐開內邊距 */
     padding: 3%;
     /* 陰影 */
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px 1px rgba(64, 12, 133, 0.2);
     /* 外框 */
-    border: 1px solid #51515130;
+    border: 1px solid #bb232330;
     /* 變形, 幅度為 .3rem (圓角矩形) */
     border-radius: .3rem;
     /* 過度動畫長度指定半秒鐘 */
     transition: all .5s;
+
+    background-color: #ddd8af; 
+    color: #da1919;
+}
+
+
+/* 空白的意思是選擇子內容 */
+/* id選擇器, 選擇所有 id="wrapper"的東西裡面 class="btn" 的東西*/
+.wrapper .btn2 {
+    /* 指定寬度 */
+    width: 50rem;
+    /* 撐開內邊距 */
+    padding: 3%;
+    /* 陰影 */
+    box-shadow: 1px 1px 1px 1px rgba(117, 122, 192, 0.2);
+    /* 外框 */
+    border: 1px solid #24060630;
+    /* 變形, 幅度為 .3rem (圓角矩形) */
+    border-radius: .3rem;
+    /* 過度動畫長度指定半秒鐘 */
+    transition: all .5s;
+
+    background-color: #6611f0; 
+    color: #a69ce0;
+}
+
+.wrapper .btn3 {
+    /* 指定寬度 */
+    width: 50rem;
+    /* 撐開內邊距 */
+    padding: 3%;
+    /* 陰影 */
+    box-shadow: 1px 1px 1px 1px rgba(201, 204, 51, 0.2);
+    /* 外框 */
+    border: 1px solid #e70cb130;
+    /* 變形, 幅度為 .3rem (圓角矩形) */
+    border-radius: .3rem;
+    /* 過度動畫長度指定半秒鐘 */
+    transition: all .5s;
+
+    background-color: #41161c; 
+    color: #baeca2;
+}
+
+.wrapper .btn4 {
+    /* 指定寬度 */
+    width: 50rem;
+    /* 撐開內邊距 */
+    padding: 3%;
+    /* 陰影 */
+    box-shadow: 1px 1px 1px 1px rgba(116, 184, 8, 0.2);
+    /* 外框 */
+    border: 1px solid #87979630;
+    /* 變形, 幅度為 .3rem (圓角矩形) */
+    border-radius: .3rem;
+    /* 過度動畫長度指定半秒鐘 */
+    transition: all .5s;
+
+    background-color: #bba57e; 
+    color: #0b3ba1;
 }
 
 /* 冒號的意思是選擇虛擬類別 */
 /* id選擇器, 選擇所有 id="wrapper"的東西裡面 class="btn" 的東西*/
 /* 虛擬類別選擇器, 這裡選擇這東西被滑鼠懸停時的狀態 */
-.wrapper .btn:hover {
+.wrapper .btn1:hover {
     /* 外框 */
-    border: 1px solid #51515150;
+    border: 10px solid #eb171750;
     /* 陰影 */
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 1px rgba(187, 172, 172, 0.2);
+}
+
+/* 冒號的意思是選擇虛擬類別 */
+/* id選擇器, 選擇所有 id="wrapper"的東西裡面 class="btn" 的東西*/
+/* 虛擬類別選擇器, 這裡選擇這東西被滑鼠懸停時的狀態 */
+.wrapper .btn2:hover {
+    /* 外框 */
+    border: 10px solid #eb171750;
+    /* 陰影 */
+    box-shadow: 2px 2px 2px 1px rgba(187, 172, 172, 0.2);
+}
+
+/* 冒號的意思是選擇虛擬類別 */
+/* id選擇器, 選擇所有 id="wrapper"的東西裡面 class="btn" 的東西*/
+/* 虛擬類別選擇器, 這裡選擇這東西被滑鼠懸停時的狀態 */
+.wrapper .btn3:hover {
+    /* 外框 */
+    border: 10px solid #eb171750;
+    /* 陰影 */
+    box-shadow: 2px 2px 2px 1px rgba(187, 172, 172, 0.2);
+}
+
+/* 冒號的意思是選擇虛擬類別 */
+/* id選擇器, 選擇所有 id="wrapper"的東西裡面 class="btn" 的東西*/
+/* 虛擬類別選擇器, 這裡選擇這東西被滑鼠懸停時的狀態 */
+.wrapper .btn4:hover {
+    /* 外框 */
+    border: 10px solid #eb171750;
+    /* 陰影 */
+    box-shadow: 2px 2px 2px 1px rgba(187, 172, 172, 0.2);
 }
